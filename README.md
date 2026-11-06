@@ -104,6 +104,8 @@ figures/          evaluation curves + app screenshot
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+# FIRST: download the WFP source CSV as data/wfp_food_prices_egy.csv
+# See data/DATA_SOURCE.md. The app and full tests require this unbundled file.
 python src/train.py        # reproduces models/ artifacts
 python src/evaluate.py     # reproduces figures/
 pytest tests/ -q           # 25 tests

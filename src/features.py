@@ -8,6 +8,7 @@ before t. Lags are calendar-exact: price_lag_k is the price exactly k months
 before t and NaN when that month was not observed (the Cairo series has
 gaps), so no information crosses the time boundary.
 """
+from pathlib import Path
 import numpy as np
 import pandas as pd
 
@@ -22,6 +23,8 @@ MARKETS = ["National Average", "Cairo (national average)"]
 
 def load_series(csv_path):
     """One row per (market, commodity, month) with mean monthly price."""
+    if not Path(csv_path).is_file():
+        raise FileNotFoundError("WFP source CSV is not bundled. See data/DATA_SOURCE.md; place wfp_food_prices_egy.csv in data/ before running app or tests.")
     df = pd.read_csv(csv_path, skiprows=[1])
     df["date"] = pd.to_datetime(df["date"])
     df["month"] = df["date"].values.astype("datetime64[M]")
