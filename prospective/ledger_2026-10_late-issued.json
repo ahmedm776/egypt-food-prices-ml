@@ -1,0 +1,310 @@
+{
+  "purpose": "frozen-prediction ledger for the one-month-ahead task (horizon and task unchanged)",
+  "evidence_class": "late_issued_backfill",
+  "evidence_class_rule": "prospective only if frozen_at is before the first day of the target month; otherwise late_issued_backfill (tamper evidence only: hashes do not prove the outcome was unseen during development)",
+  "target_month": "2026-10-01",
+  "latest_observed_month_in_data": "2026-09-01",
+  "frozen_at_utc": "2026-11-05T13:15:31+00:00",
+  "model_sha256": "2cf32042fa7a6b6c8620bb0703e4d12bb823b03fbd29b02bc5d6c1e8ae4f52e6",
+  "data_csv_sha256": "08fac8333930dbe7442ad24b118f6772ae5685631af1075d7363bebe5b7ab70f",
+  "monthly_rows_used_sha256": "ba1755528f22efd5938769a6efeccf5901c7b5024864ee97adf1e701d45a04d4",
+  "spike_definition": "price[m]/price[m-1]-1 > 0.02",
+  "decision_threshold": 0.5,
+  "pre_declared_metrics": [
+    "ROC AUC (calibrated score)",
+    "Brier (calibrated)",
+    "accuracy at 0.5 vs majority-class and previous-month-spiked baselines",
+    "report n and the number of spikes; AUC undefined if one class only"
+  ],
+  "predictions": [
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Arugula",
+      "raw": 0.124394,
+      "calibrated": 0.102041,
+      "prev_month_price": 15.0,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Beans (fava, dry)",
+      "raw": 0.110229,
+      "calibrated": 0.102041,
+      "prev_month_price": 57.4,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Beans (green)",
+      "raw": 0.79156,
+      "calibrated": 0.571429,
+      "prev_month_price": 40.6,
+      "prev_month_spiked_as_of_target": true
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Beans (kidney)",
+      "raw": 0.249562,
+      "calibrated": 0.16,
+      "prev_month_price": 76.7,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Cheese (local, Koreish)",
+      "raw": 0.456735,
+      "calibrated": 0.439024,
+      "prev_month_price": 100.0,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Eggplants",
+      "raw": 0.639992,
+      "calibrated": 0.571429,
+      "prev_month_price": 13.4,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Eggs (medium size)",
+      "raw": 0.658336,
+      "calibrated": 0.571429,
+      "prev_month_price": 4.1,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Lentils",
+      "raw": 0.306552,
+      "calibrated": 0.16,
+      "prev_month_price": 65.5,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Meat (buffalo)",
+      "raw": 0.224188,
+      "calibrated": 0.14,
+      "prev_month_price": 302.6,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Meat (chicken, farm)",
+      "raw": 0.537462,
+      "calibrated": 0.439024,
+      "prev_month_price": 80.8,
+      "prev_month_spiked_as_of_target": true
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Melons (cantaloupe)",
+      "raw": 0.345439,
+      "calibrated": 0.388889,
+      "prev_month_price": 49.4,
+      "prev_month_spiked_as_of_target": true
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Milk (fresh)",
+      "raw": 0.121938,
+      "calibrated": 0.102041,
+      "prev_month_price": 35.9,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Oil (cotton)",
+      "raw": 0.452127,
+      "calibrated": 0.439024,
+      "prev_month_price": 65.5,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Onions",
+      "raw": 0.621176,
+      "calibrated": 0.571429,
+      "prev_month_price": 17.6,
+      "prev_month_spiked_as_of_target": true
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Rice",
+      "raw": 0.084022,
+      "calibrated": 0.0,
+      "prev_month_price": 29.6,
+      "prev_month_spiked_as_of_target": false
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Tomatoes",
+      "raw": 0.598301,
+      "calibrated": 0.439024,
+      "prev_month_price": 24.9,
+      "prev_month_spiked_as_of_target": true
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Wheat flour (unpacked, 72%)",
+      "raw": 0.215802,
+      "calibrated": 0.14,
+      "prev_month_price": 23.9,
+      "prev_month_spiked_as_of_target": false
+    }
+  ],
+  "skipped_series": [
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Cheese (local, processed, Nesto)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Cucumbers (medium sized)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Fish (tilapia)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Oranges",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Pasta",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "Cairo (national average)",
+      "commodity": "Sugar",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Beans (fava, dry)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Cheese",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Cheese (picon)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Eggs",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Fish (tilapia)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Garlic",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Ghee (artificial)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Ghee (natural)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Lentils",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Meat (beef)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Meat (beef, without bones)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Meat (chicken, frozen)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Milk",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Oil (maize)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Oil (mixed)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Oil (sunflower)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Onions (red)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Onions (white)",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Pasta",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Potatoes",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Rice",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Sugar",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Tomatoes",
+      "reason": "series has no observation in the month before the target; cannot score"
+    },
+    {
+      "market": "National Average",
+      "commodity": "Wheat flour",
+      "reason": "series has no observation in the month before the target; cannot score"
+    }
+  ],
+  "ledger_sha256": "5cb98b4151355bb71efd1bd32d2670412bf24579b0f46bd08a9ffe95157b9003"
+}

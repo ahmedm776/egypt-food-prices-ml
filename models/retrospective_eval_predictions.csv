@@ -1,0 +1,216 @@
+market,commodity,month,price,target_spike,raw_score,calibrated_score
+Cairo (national average),Arugula,2025-10-01,15.0,0.0,0.11061752772398277,0.10204081632653061
+Cairo (national average),Arugula,2025-11-01,15.0,0.0,0.10891136187758932,0.10204081632653061
+Cairo (national average),Arugula,2025-12-01,15.0,0.0,0.05065680139109711,0.0
+Cairo (national average),Arugula,2026-01-01,15.0,0.0,0.05458076052102806,0.0
+Cairo (national average),Arugula,2026-02-01,15.0,0.0,0.06846232583404577,0.0
+Cairo (national average),Arugula,2026-03-01,15.0,0.0,0.08438283132996366,0.0
+Cairo (national average),Arugula,2026-04-01,15.0,0.0,0.06306638913795327,0.0
+Cairo (national average),Arugula,2026-05-01,15.0,0.0,0.048290731947990384,0.0
+Cairo (national average),Arugula,2026-06-01,15.0,0.0,0.040770153517388406,0.0
+Cairo (national average),Arugula,2026-07-01,15.0,0.0,0.04757987490668137,0.0
+Cairo (national average),Arugula,2026-08-01,15.0,0.0,0.07702120634096656,0.0
+Cairo (national average),Arugula,2026-09-01,15.0,0.0,0.10680896117834543,0.10204081632653061
+Cairo (national average),"Beans (fava, dry)",2025-10-01,56.1,0.0,0.4196713745838706,0.43902439024390244
+Cairo (national average),"Beans (fava, dry)",2025-11-01,56.3,0.0,0.21395646399102666,0.14
+Cairo (national average),"Beans (fava, dry)",2025-12-01,56.4,0.0,0.11176953971933168,0.10204081632653061
+Cairo (national average),"Beans (fava, dry)",2026-01-01,56.4,0.0,0.11701560450279096,0.10204081632653061
+Cairo (national average),"Beans (fava, dry)",2026-02-01,56.6,0.0,0.06997116001611439,0.0
+Cairo (national average),"Beans (fava, dry)",2026-03-01,57.1,0.0,0.05623794234490458,0.0
+Cairo (national average),"Beans (fava, dry)",2026-06-01,57.4,0.0,0.11258540612291172,0.10204081632653061
+Cairo (national average),"Beans (fava, dry)",2026-07-01,57.0,0.0,0.16068493157495,0.10204081632653061
+Cairo (national average),"Beans (fava, dry)",2026-08-01,57.1,0.0,0.1908112209466739,0.14
+Cairo (national average),"Beans (fava, dry)",2026-09-01,57.4,0.0,0.07789941012004452,0.0
+Cairo (national average),Beans (green),2025-10-01,34.5,1.0,0.48641525280495973,0.43902439024390244
+Cairo (national average),Beans (green),2025-11-01,28.2,0.0,0.29898032865416596,0.16
+Cairo (national average),Beans (green),2025-12-01,23.5,0.0,0.22459448096435702,0.14
+Cairo (national average),Beans (green),2026-01-01,24.2,1.0,0.6655620124104472,0.5714285714285714
+Cairo (national average),Beans (green),2026-02-01,31.1,1.0,0.6435900201910448,0.5714285714285714
+Cairo (national average),Beans (green),2026-03-01,34.6,1.0,0.6108555168618987,0.516627180604462
+Cairo (national average),Beans (green),2026-04-01,36.0,1.0,0.5314742050965923,0.43902439024390244
+Cairo (national average),Beans (green),2026-05-01,32.0,0.0,0.5497364467570064,0.43902439024390244
+Cairo (national average),Beans (green),2026-06-01,32.7,1.0,0.19598785825619094,0.14
+Cairo (national average),Beans (green),2026-07-01,35.7,1.0,0.39701134859463005,0.43902439024390244
+Cairo (national average),Beans (green),2026-08-01,34.2,0.0,0.606551176335295,0.43902439024390244
+Cairo (national average),Beans (green),2026-09-01,40.6,1.0,0.5818439221674006,0.43902439024390244
+Cairo (national average),Beans (kidney),2025-10-01,78.7,0.0,0.17144518169011883,0.14
+Cairo (national average),Beans (kidney),2025-11-01,77.8,0.0,0.13018354366460264,0.10204081632653061
+Cairo (national average),Beans (kidney),2025-12-01,77.1,0.0,0.07130964981858712,0.0
+Cairo (national average),Beans (kidney),2026-01-01,76.5,0.0,0.1918350701739581,0.14
+Cairo (national average),Beans (kidney),2026-02-01,75.5,0.0,0.19686127383983323,0.14
+Cairo (national average),Beans (kidney),2026-03-01,76.0,0.0,0.21953279777045495,0.14
+Cairo (national average),Beans (kidney),2026-04-01,77.8,1.0,0.1853616831812307,0.14
+Cairo (national average),Beans (kidney),2026-05-01,76.7,0.0,0.48893460371260294,0.43902439024390244
+Cairo (national average),Beans (kidney),2026-06-01,76.4,0.0,0.31752728066068797,0.16
+Cairo (national average),Beans (kidney),2026-07-01,77.2,0.0,0.19458426327081468,0.14
+Cairo (national average),Beans (kidney),2026-08-01,77.0,0.0,0.19249957230609838,0.14
+Cairo (national average),Beans (kidney),2026-09-01,76.7,0.0,0.22071951089263228,0.14
+Cairo (national average),"Cheese (local, Koreish)",2025-10-01,96.5,0.0,0.1999329486051578,0.14
+Cairo (national average),"Cheese (local, Koreish)",2025-11-01,97.0,0.0,0.21724212451307678,0.14
+Cairo (national average),"Cheese (local, Koreish)",2025-12-01,96.9,0.0,0.11598827466463085,0.10204081632653061
+Cairo (national average),"Cheese (local, Koreish)",2026-01-01,97.3,0.0,0.2988469483578593,0.16
+Cairo (national average),"Cheese (local, Koreish)",2026-02-01,96.8,0.0,0.25092728794975583,0.16
+Cairo (national average),"Cheese (local, Koreish)",2026-03-01,95.8,0.0,0.19194304295588674,0.14
+Cairo (national average),"Cheese (local, Koreish)",2026-04-01,98.0,1.0,0.23648340864214895,0.14
+Cairo (national average),"Cheese (local, Koreish)",2026-05-01,98.1,0.0,0.35329266534102366,0.3888888888888889
+Cairo (national average),"Cheese (local, Koreish)",2026-06-01,97.8,0.0,0.25610280916586914,0.16
+Cairo (national average),"Cheese (local, Koreish)",2026-07-01,98.1,0.0,0.13572343941633225,0.10204081632653061
+Cairo (national average),"Cheese (local, Koreish)",2026-08-01,98.2,0.0,0.20223588582118607,0.14
+Cairo (national average),"Cheese (local, Koreish)",2026-09-01,100.0,0.0,0.22383024063428536,0.14
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-10-01,43.2,1.0,0.2951009853750218,0.16
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-11-01,44.0,0.0,0.35577285268450853,0.3888888888888889
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-12-01,44.4,0.0,0.2837948141705073,0.16
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-01-01,44.8,0.0,0.28657515651552434,0.16
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-02-01,44.8,0.0,0.2903580524549929,0.16
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-03-01,45.3,0.0,0.2703373944984059,0.16
+Cairo (national average),Cucumbers (medium sized),2025-10-01,21.8,0.0,0.6151818386760711,0.5714285714285714
+Cairo (national average),Cucumbers (medium sized),2025-11-01,18.2,0.0,0.22159366110361267,0.14
+Cairo (national average),Cucumbers (medium sized),2025-12-01,22.9,1.0,0.33872930390376815,0.3888888888888889
+Cairo (national average),Cucumbers (medium sized),2026-01-01,23.2,0.0,0.33481653055149474,0.3888888888888889
+Cairo (national average),Cucumbers (medium sized),2026-02-01,23.5,0.0,0.2774005587297672,0.16
+Cairo (national average),Cucumbers (medium sized),2026-03-01,28.7,1.0,0.37229134382097734,0.3888888888888889
+Cairo (national average),Eggplants,2025-10-01,13.1,1.0,0.4421540570540031,0.43902439024390244
+Cairo (national average),Eggplants,2025-11-01,12.9,0.0,0.4826146878944321,0.43902439024390244
+Cairo (national average),Eggplants,2025-12-01,12.8,0.0,0.24272138068478813,0.16
+Cairo (national average),Eggplants,2026-01-01,14.6,1.0,0.45616267733830573,0.43902439024390244
+Cairo (national average),Eggplants,2026-02-01,16.3,1.0,0.4512007515308893,0.43902439024390244
+Cairo (national average),Eggplants,2026-03-01,21.9,1.0,0.48271959858633434,0.43902439024390244
+Cairo (national average),Eggplants,2026-04-01,23.6,1.0,0.5147112508722523,0.43902439024390244
+Cairo (national average),Eggplants,2026-05-01,21.6,0.0,0.16792674777469457,0.10204081632653061
+Cairo (national average),Eggplants,2026-06-01,18.9,0.0,0.1296271718328586,0.10204081632653061
+Cairo (national average),Eggplants,2026-07-01,16.0,0.0,0.31981508254062124,0.18528186614262804
+Cairo (national average),Eggplants,2026-08-01,14.3,0.0,0.5374591215905623,0.43902439024390244
+Cairo (national average),Eggplants,2026-09-01,13.4,0.0,0.5704593317405804,0.43902439024390244
+Cairo (national average),Eggs (medium size),2025-10-01,5.5,1.0,0.48873455047707515,0.43902439024390244
+Cairo (national average),Eggs (medium size),2025-11-01,5.3,0.0,0.5034005551574829,0.43902439024390244
+Cairo (national average),Eggs (medium size),2025-12-01,5.0,0.0,0.2668181533747012,0.16
+Cairo (national average),Eggs (medium size),2026-01-01,5.0,0.0,0.41572695611091665,0.43902439024390244
+Cairo (national average),Eggs (medium size),2026-02-01,5.0,0.0,0.3010192142698217,0.16
+Cairo (national average),Eggs (medium size),2026-03-01,5.1,1.0,0.25547299536024193,0.16
+Cairo (national average),Eggs (medium size),2026-06-01,4.0,0.0,0.4238990356350732,0.43902439024390244
+Cairo (national average),Eggs (medium size),2026-07-01,4.0,0.0,0.5966149335981105,0.43902439024390244
+Cairo (national average),Eggs (medium size),2026-08-01,4.1,1.0,0.5623172870816622,0.43902439024390244
+Cairo (national average),Eggs (medium size),2026-09-01,4.1,0.0,0.6290750758148037,0.5714285714285714
+Cairo (national average),Fish (tilapia),2025-10-01,93.8,0.0,0.38460845925540016,0.40934482729575117
+Cairo (national average),Fish (tilapia),2025-11-01,92.2,0.0,0.2452414408655028,0.16
+Cairo (national average),Fish (tilapia),2025-12-01,91.7,0.0,0.14561829014546215,0.10204081632653061
+Cairo (national average),Fish (tilapia),2026-01-01,92.7,0.0,0.2092974958613451,0.14
+Cairo (national average),Fish (tilapia),2026-02-01,93.7,0.0,0.13240199164716002,0.10204081632653061
+Cairo (national average),Fish (tilapia),2026-03-01,95.6,1.0,0.15902179359076124,0.10204081632653061
+Cairo (national average),Lentils,2025-10-01,62.3,0.0,0.08041623938849383,0.0
+Cairo (national average),Lentils,2025-11-01,62.0,0.0,0.07358427106871357,0.0
+Cairo (national average),Lentils,2025-12-01,62.1,0.0,0.04733649989705228,0.0
+Cairo (national average),Lentils,2026-01-01,63.3,0.0,0.07003403779324238,0.0
+Cairo (national average),Lentils,2026-02-01,63.3,0.0,0.19713307984351283,0.14
+Cairo (national average),Lentils,2026-03-01,63.9,0.0,0.2941764385278533,0.16
+Cairo (national average),Lentils,2026-06-01,51.3,0.0,0.25626059799181045,0.16
+Cairo (national average),Lentils,2026-07-01,65.2,1.0,0.5789305613692286,0.43902439024390244
+Cairo (national average),Lentils,2026-08-01,65.0,0.0,0.4151044981081021,0.43902439024390244
+Cairo (national average),Lentils,2026-09-01,65.5,0.0,0.49817357396558243,0.43902439024390244
+Cairo (national average),Meat (buffalo),2025-10-01,276.8,0.0,0.17160680873577197,0.14
+Cairo (national average),Meat (buffalo),2025-11-01,278.1,0.0,0.16808565502037182,0.10204081632653061
+Cairo (national average),Meat (buffalo),2025-12-01,277.6,0.0,0.10121295446773557,0.10204081632653061
+Cairo (national average),Meat (buffalo),2026-01-01,277.3,0.0,0.1933586799505225,0.14
+Cairo (national average),Meat (buffalo),2026-02-01,275.0,0.0,0.17225650113733743,0.14
+Cairo (national average),Meat (buffalo),2026-03-01,278.6,0.0,0.056117316899562154,0.0
+Cairo (national average),Meat (buffalo),2026-04-01,290.9,1.0,0.056212390772835456,0.0
+Cairo (national average),Meat (buffalo),2026-05-01,296.5,0.0,0.4631748992143504,0.43902439024390244
+Cairo (national average),Meat (buffalo),2026-06-01,299.4,0.0,0.4101848798944594,0.43902439024390244
+Cairo (national average),Meat (buffalo),2026-07-01,302.1,0.0,0.19920758523111706,0.14
+Cairo (national average),Meat (buffalo),2026-08-01,302.5,0.0,0.2568759690771345,0.16
+Cairo (national average),Meat (buffalo),2026-09-01,302.6,0.0,0.4075415766745246,0.43902439024390244
+Cairo (national average),"Meat (chicken, farm)",2025-10-01,77.0,0.0,0.3190647295148105,0.1761754130134231
+Cairo (national average),"Meat (chicken, farm)",2025-11-01,74.3,0.0,0.19255336234657985,0.14
+Cairo (national average),"Meat (chicken, farm)",2025-12-01,72.1,0.0,0.2627579313521241,0.16
+Cairo (national average),"Meat (chicken, farm)",2026-01-01,82.5,1.0,0.33130560388301505,0.3888888888888889
+Cairo (national average),"Meat (chicken, farm)",2026-02-01,101.0,1.0,0.22510672868127557,0.14
+Cairo (national average),"Meat (chicken, farm)",2026-03-01,113.1,1.0,0.30144180037229823,0.16
+Cairo (national average),"Meat (chicken, farm)",2026-06-01,84.1,0.0,0.2445974876392924,0.16
+Cairo (national average),"Meat (chicken, farm)",2026-07-01,79.2,0.0,0.4946210255508313,0.43902439024390244
+Cairo (national average),"Meat (chicken, farm)",2026-08-01,76.5,0.0,0.4228983613548098,0.43902439024390244
+Cairo (national average),"Meat (chicken, farm)",2026-09-01,80.8,1.0,0.4867659532212797,0.43902439024390244
+Cairo (national average),Melons (cantaloupe),2026-06-01,25.1,0.0,0.1819999508384463,0.14
+Cairo (national average),Melons (cantaloupe),2026-07-01,24.6,0.0,0.07666538000063396,0.0
+Cairo (national average),Melons (cantaloupe),2026-08-01,24.3,0.0,0.439118385826951,0.43902439024390244
+Cairo (national average),Melons (cantaloupe),2026-09-01,49.4,1.0,0.2806573493233424,0.16
+Cairo (national average),Milk (fresh),2025-10-01,33.4,0.0,0.2172829897966603,0.14
+Cairo (national average),Milk (fresh),2025-11-01,33.6,0.0,0.1921071921441172,0.14
+Cairo (national average),Milk (fresh),2025-12-01,33.7,0.0,0.11972836127410787,0.10204081632653061
+Cairo (national average),Milk (fresh),2026-01-01,34.1,0.0,0.17388649666867317,0.14
+Cairo (national average),Milk (fresh),2026-02-01,34.5,0.0,0.19710100577836454,0.14
+Cairo (national average),Milk (fresh),2026-03-01,34.7,0.0,0.31357883281189697,0.16
+Cairo (national average),Milk (fresh),2026-06-01,35.8,0.0,0.23828435248800905,0.14
+Cairo (national average),Milk (fresh),2026-07-01,35.7,0.0,0.23823375296337718,0.14
+Cairo (national average),Milk (fresh),2026-08-01,35.9,0.0,0.2737368103668113,0.16
+Cairo (national average),Milk (fresh),2026-09-01,35.9,0.0,0.13965236000312156,0.10204081632653061
+Cairo (national average),Oil (cotton),2025-10-01,59.4,0.0,0.10624103691023296,0.10204081632653061
+Cairo (national average),Oil (cotton),2025-11-01,59.8,0.0,0.08334198792045006,0.0
+Cairo (national average),Oil (cotton),2025-12-01,60.0,0.0,0.041142390856559595,0.0
+Cairo (national average),Oil (cotton),2026-01-01,59.9,0.0,0.08011723094465331,0.0
+Cairo (national average),Oil (cotton),2026-02-01,59.6,0.0,0.0800760521367997,0.0
+Cairo (national average),Oil (cotton),2026-03-01,61.2,1.0,0.06339453704250621,0.0
+Cairo (national average),Oil (cotton),2026-06-01,64.9,0.0,0.35940181704357993,0.3888888888888889
+Cairo (national average),Oil (cotton),2026-07-01,64.0,0.0,0.23283484020792908,0.14
+Cairo (national average),Oil (cotton),2026-08-01,64.9,0.0,0.28237452253427486,0.16
+Cairo (national average),Oil (cotton),2026-09-01,65.5,0.0,0.35918485592039867,0.3888888888888889
+Cairo (national average),Onions,2025-10-01,15.8,1.0,0.19263308165719992,0.14
+Cairo (national average),Onions,2025-11-01,15.4,0.0,0.24419286591264538,0.16
+Cairo (national average),Onions,2025-12-01,15.4,0.0,0.1541320195285222,0.10204081632653061
+Cairo (national average),Onions,2026-01-01,15.4,0.0,0.33994644908207206,0.3888888888888889
+Cairo (national average),Onions,2026-02-01,15.2,0.0,0.15426230380845635,0.10204081632653061
+Cairo (national average),Onions,2026-03-01,15.6,1.0,0.1752092554042166,0.14
+Cairo (national average),Onions,2026-04-01,16.7,1.0,0.2423742077036914,0.16
+Cairo (national average),Onions,2026-05-01,15.3,0.0,0.5858921450976514,0.43902439024390244
+Cairo (national average),Onions,2026-06-01,14.9,0.0,0.5207408800794072,0.43902439024390244
+Cairo (national average),Onions,2026-07-01,15.3,1.0,0.6877116073887778,0.5714285714285714
+Cairo (national average),Onions,2026-08-01,15.8,1.0,0.410224987393438,0.43902439024390244
+Cairo (national average),Onions,2026-09-01,17.6,1.0,0.572600988051301,0.43902439024390244
+Cairo (national average),Oranges,2025-10-01,31.3,0.0,0.3263793844651905,0.2
+Cairo (national average),Oranges,2025-11-01,27.6,0.0,0.37330924363116036,0.3888888888888889
+Cairo (national average),Oranges,2025-12-01,23.7,0.0,0.2794027136644861,0.16
+Cairo (national average),Oranges,2026-01-01,21.2,0.0,0.6407395165206935,0.5714285714285714
+Cairo (national average),Oranges,2026-02-01,20.7,0.0,0.6263336441393602,0.5714285714285714
+Cairo (national average),Oranges,2026-03-01,20.8,0.0,0.670614678883689,0.5714285714285714
+Cairo (national average),Oranges,2026-04-01,25.0,1.0,0.42180555547089404,0.43902439024390244
+Cairo (national average),Pasta,2025-10-01,28.6,0.0,0.06758404311910644,0.0
+Cairo (national average),Pasta,2025-11-01,28.7,0.0,0.09159583715246092,0.0002482103000179582
+Cairo (national average),Pasta,2025-12-01,28.6,0.0,0.03721607186681306,0.0
+Cairo (national average),Pasta,2026-01-01,28.8,0.0,0.056599539260429925,0.0
+Cairo (national average),Pasta,2026-02-01,28.7,0.0,0.059340395810164,0.0
+Cairo (national average),Pasta,2026-03-01,28.9,0.0,0.07100731373133484,0.0
+Cairo (national average),Rice,2025-10-01,29.0,0.0,0.1096651347308902,0.10204081632653061
+Cairo (national average),Rice,2025-11-01,29.0,0.0,0.11054255169327537,0.10204081632653061
+Cairo (national average),Rice,2025-12-01,28.7,0.0,0.05729753411357036,0.0
+Cairo (national average),Rice,2026-01-01,28.4,0.0,0.07568809960557349,0.0
+Cairo (national average),Rice,2026-02-01,28.6,0.0,0.09603552020715955,0.10204081632653061
+Cairo (national average),Rice,2026-03-01,28.9,0.0,0.08474705070014049,0.0
+Cairo (national average),Rice,2026-06-01,29.7,0.0,0.1968590446056421,0.14
+Cairo (national average),Rice,2026-07-01,29.7,0.0,0.15878656209455216,0.10204081632653061
+Cairo (national average),Rice,2026-08-01,29.8,0.0,0.21378872357740955,0.14
+Cairo (national average),Rice,2026-09-01,29.6,0.0,0.12663098687688762,0.10204081632653061
+Cairo (national average),Sugar,2025-10-01,42.4,0.0,0.0742015788705988,0.0
+Cairo (national average),Sugar,2025-11-01,41.6,0.0,0.09748270276148445,0.10204081632653061
+Cairo (national average),Sugar,2025-12-01,39.7,0.0,0.14664600637859904,0.10204081632653061
+Cairo (national average),Sugar,2026-01-01,40.1,0.0,0.2570186428104968,0.16
+Cairo (national average),Sugar,2026-02-01,39.3,0.0,0.2839273075279337,0.16
+Cairo (national average),Sugar,2026-03-01,61.0,1.0,0.3110868435457708,0.16
+Cairo (national average),Tomatoes,2025-10-01,21.1,1.0,0.5015023509631285,0.43902439024390244
+Cairo (national average),Tomatoes,2025-11-01,12.3,0.0,0.2008157913357999,0.14
+Cairo (national average),Tomatoes,2025-12-01,9.8,0.0,0.2826457537206084,0.16
+Cairo (national average),Tomatoes,2026-01-01,12.6,1.0,0.4218646642617695,0.43902439024390244
+Cairo (national average),Tomatoes,2026-02-01,14.6,1.0,0.2450870764088539,0.16
+Cairo (national average),Tomatoes,2026-03-01,26.9,1.0,0.19711568682222583,0.14
+Cairo (national average),Tomatoes,2026-06-01,24.4,0.0,0.21527300173176453,0.14
+Cairo (national average),Tomatoes,2026-07-01,23.2,0.0,0.1561399699449307,0.10204081632653061
+Cairo (national average),Tomatoes,2026-08-01,17.1,0.0,0.32974437689005587,0.3001668110606338
+Cairo (national average),Tomatoes,2026-09-01,24.9,1.0,0.6108677892683573,0.5168765719050589
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-10-01,22.6,0.0,0.15599007118466038,0.10204081632653061
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-11-01,22.8,0.0,0.1578915427392019,0.10204081632653061
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-12-01,22.5,0.0,0.0957602922591987,0.10204081632653061
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-01-01,22.4,0.0,0.17362915211793986,0.14
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-02-01,22.5,0.0,0.1420427352048595,0.10204081632653061
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-03-01,22.8,0.0,0.09371673395121438,0.10204081632653061
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-06-01,23.6,0.0,0.19847167415052497,0.14
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-07-01,23.6,0.0,0.20082051481032936,0.14
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-08-01,23.7,0.0,0.32350864830945253,0.2
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-09-01,23.9,0.0,0.17167621642803607,0.14

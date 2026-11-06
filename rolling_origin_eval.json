@@ -1,0 +1,119 @@
+{
+  "experiment": "rolling-origin robustness check, frozen v3 pipeline",
+  "date": "2026-11-04",
+  "scope": "Origins before 2024-10 were not the tuned windows, but the full dataset was exposed during development; this is a robustness check on development-exposed data, not an untouched holdout. Negative findings reported as-is.",
+  "protocol": "train < Y | isotonic calibrate Y..Y+12mo | evaluate Y+12mo..Y+24mo (shipped 2024-10 origin evaluates >= 2025-10 to data end)",
+  "results": [
+    {
+      "origin": "2016-10",
+      "train_end": "2016-10-01",
+      "eval_months": [
+        "2017-10-01",
+        "2018-09-01"
+      ],
+      "n_train": 1156,
+      "n_calib": 228,
+      "n_eval": 228,
+      "eval_base_rate": 0.175,
+      "auc_uncalibrated": 0.72,
+      "auc_calibrated": 0.563,
+      "accuracy_raw_threshold_0p5": 0.715,
+      "f1_spike_class_raw_threshold_0p5": 0.381,
+      "accuracy_calibrated_threshold_0p5": 0.829,
+      "brier_calibrated": 0.2015,
+      "majority_accuracy": 0.825,
+      "prev_month_spike_accuracy": 0.833,
+      "beats_majority_raw05": false
+    },
+    {
+      "origin": "2018-10",
+      "train_end": "2018-10-01",
+      "eval_months": [
+        "2019-10-01",
+        "2020-09-01"
+      ],
+      "n_train": 1612,
+      "n_calib": 228,
+      "n_eval": 228,
+      "eval_base_rate": 0.14,
+      "auc_uncalibrated": 0.629,
+      "auc_calibrated": 0.63,
+      "accuracy_raw_threshold_0p5": 0.763,
+      "f1_spike_class_raw_threshold_0p5": 0.27,
+      "accuracy_calibrated_threshold_0p5": 0.763,
+      "brier_calibrated": 0.1592,
+      "majority_accuracy": 0.86,
+      "prev_month_spike_accuracy": 0.833,
+      "beats_majority_raw05": false
+    },
+    {
+      "origin": "2020-10",
+      "train_end": "2020-10-01",
+      "eval_months": [
+        "2021-10-01",
+        "2022-09-01"
+      ],
+      "n_train": 2068,
+      "n_calib": 340,
+      "n_eval": 396,
+      "eval_base_rate": 0.475,
+      "auc_uncalibrated": 0.511,
+      "auc_calibrated": 0.519,
+      "accuracy_raw_threshold_0p5": 0.518,
+      "f1_spike_class_raw_threshold_0p5": 0.22,
+      "accuracy_calibrated_threshold_0p5": 0.525,
+      "brier_calibrated": 0.3332,
+      "majority_accuracy": 0.525,
+      "prev_month_spike_accuracy": 0.556,
+      "beats_majority_raw05": false
+    },
+    {
+      "origin": "2022-10",
+      "train_end": "2022-10-01",
+      "eval_months": [
+        "2023-10-01",
+        "2024-09-01"
+      ],
+      "n_train": 2804,
+      "n_calib": 187,
+      "n_eval": 168,
+      "eval_base_rate": 0.351,
+      "auc_uncalibrated": 0.687,
+      "auc_calibrated": 0.663,
+      "accuracy_raw_threshold_0p5": 0.661,
+      "f1_spike_class_raw_threshold_0p5": 0.412,
+      "accuracy_calibrated_threshold_0p5": 0.548,
+      "brier_calibrated": 0.2624,
+      "majority_accuracy": 0.649,
+      "prev_month_spike_accuracy": 0.661,
+      "beats_majority_raw05": true
+    },
+    {
+      "origin": "2024-10",
+      "train_end": "2024-10-01",
+      "eval_months": [
+        "2025-10-01",
+        "2026-09-01"
+      ],
+      "n_train": 3159,
+      "n_calib": 230,
+      "n_eval": 215,
+      "eval_base_rate": 0.2,
+      "auc_uncalibrated": 0.734,
+      "auc_calibrated": 0.724,
+      "accuracy_raw_threshold_0p5": 0.767,
+      "f1_spike_class_raw_threshold_0p5": 0.39,
+      "accuracy_calibrated_threshold_0p5": 0.786,
+      "brier_calibrated": 0.1445,
+      "majority_accuracy": 0.8,
+      "prev_month_spike_accuracy": 0.805,
+      "beats_majority_raw05": false
+    }
+  ],
+  "auc_range": [
+    0.519,
+    0.724
+  ],
+  "origins_beating_majority_raw05": 1,
+  "n_origins": 5
+}

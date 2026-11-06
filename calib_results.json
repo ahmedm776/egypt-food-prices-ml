@@ -1,0 +1,109 @@
+{
+ "protocol": {
+  "frozen_at": "2026-11-05T21:30 EET",
+  "stage": "pre-fit",
+  "origins": [
+   "2016-10",
+   "2018-10",
+   "2020-10",
+   "2022-10"
+  ],
+  "model_config": {
+   "max_iter": 200,
+   "learning_rate": 0.03,
+   "l2_regularization": 1.0,
+   "max_leaf_nodes": 15,
+   "random_state": 42
+  },
+  "windows": "train < Y | calibrate Y..Y+12mo | evaluate Y+12mo..Y+24mo",
+  "arms": [
+   "raw",
+   "isotonic",
+   "platt(positive-slope asserted)"
+  ],
+  "metrics": [
+   "roc_auc",
+   "brier_score_loss"
+  ],
+  "adoption_rule": "adopt platt ONLY IF on EVERY origin auc_platt >= auc_raw - 0.005 AND mean(brier_platt) <= mean(brier_isotonic) + 0.005; otherwise keep isotonic, document, stop. Fixed before fits; no tweaking after results.",
+  "platt_monotonicity": "logistic coefficient asserted > 0 per origin; measured AUC used (ties from float/sigmoid would be visible in it)",
+  "exposure": "all 4 origins development-exposed; robustness checks, NOT independent validation; shipped 2024-10 origin excluded from selection",
+  "data_sha256": "08fac8333930dbe7442ad24b118f6772ae5685631af1075d7363bebe5b7ab70f",
+  "code_sha256": "c13b391e8203cf7e95991446672846e0cef27f125db1438a3a1694c7738c0dc2",
+  "caps": {
+   "wall_min": 20,
+   "fit_compute_min": 5
+  }
+ },
+ "results": [
+  {
+   "origin": "2016-10",
+   "n_train": 1156,
+   "n_calib": 228,
+   "n_eval": 228,
+   "eval_base_rate": 0.175,
+   "auc_raw": 0.6945,
+   "auc_isotonic": 0.6439,
+   "auc_platt": 0.3055,
+   "brier_raw": 0.1777,
+   "brier_isotonic": 0.2011,
+   "brier_platt": 0.2132,
+   "platt_slope": -0.9207,
+   "platt_slope_positive": false
+  },
+  {
+   "origin": "2018-10",
+   "n_train": 1612,
+   "n_calib": 228,
+   "n_eval": 228,
+   "eval_base_rate": 0.14,
+   "auc_raw": 0.6998,
+   "auc_isotonic": 0.7054,
+   "auc_platt": 0.6998,
+   "brier_raw": 0.1302,
+   "brier_isotonic": 0.134,
+   "brier_platt": 0.116,
+   "platt_slope": 3.871,
+   "platt_slope_positive": true
+  },
+  {
+   "origin": "2020-10",
+   "n_train": 2068,
+   "n_calib": 340,
+   "n_eval": 396,
+   "eval_base_rate": 0.475,
+   "auc_raw": 0.5291,
+   "auc_isotonic": 0.5313,
+   "auc_platt": 0.5291,
+   "brier_raw": 0.2966,
+   "brier_isotonic": 0.3365,
+   "brier_platt": 0.3146,
+   "platt_slope": 3.5362,
+   "platt_slope_positive": true
+  },
+  {
+   "origin": "2022-10",
+   "n_train": 2804,
+   "n_calib": 187,
+   "n_eval": 168,
+   "eval_base_rate": 0.351,
+   "auc_raw": 0.7338,
+   "auc_isotonic": 0.7287,
+   "auc_platt": 0.7338,
+   "brier_raw": 0.1967,
+   "brier_isotonic": 0.2155,
+   "brier_platt": 0.231,
+   "platt_slope": 3.6511,
+   "platt_slope_positive": true
+  }
+ ],
+ "mean_brier_isotonic": 0.2218,
+ "mean_brier_platt": 0.2187,
+ "wall_sec": 1.6,
+ "histgb_fit_sec_total": 1.1,
+ "adopt_platt": false,
+ "decision_detail": {
+  "rank_preserved_all_origins": false,
+  "brier_within_margin": true
+ }
+}

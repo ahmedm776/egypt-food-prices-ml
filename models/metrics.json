@@ -1,0 +1,43 @@
+{
+  "task": "binary: monthly price rises > 2% next month",
+  "model": "HistGradientBoostingClassifier(max_iter=200, learning_rate=0.03, l2_regularization=1.0, max_leaf_nodes=15, frozen) - v4 candidate, selected on rolling origins 2016-2022 only (development-exposed data, not a holdout)",
+  "protocol": "chronological train -> calibrate -> evaluate, frozen before run, evaluated once",
+  "train_window": {
+    "window": "train (< 2024-10)",
+    "first_month": "2010-09-01",
+    "last_month": "2024-09-01",
+    "n_rows": 3159
+  },
+  "calibration_window": {
+    "window": "calibration (2024-10 .. 2025-09)",
+    "first_month": "2024-10-01",
+    "last_month": "2025-09-01",
+    "n_rows": 230
+  },
+  "retrospective_eval_window": {
+    "window": "eval (>= 2025-10)",
+    "first_month": "2025-10-01",
+    "last_month": "2026-09-01",
+    "n_rows": 215
+  },
+  "retrospective_eval": {
+    "auc": 0.759,
+    "accuracy_raw_threshold_0p5": 0.795,
+    "f1_spike_class_raw_threshold_0p5": 0.353,
+    "brier_raw": 0.1412,
+    "brier_calibrated": 0.138,
+    "accuracy_calibrated_threshold_0p5": 0.8,
+    "f1_spike_class_calibrated_threshold_0p5": 0.189,
+    "majority_accuracy": 0.8,
+    "prev_month_spike_accuracy": 0.805,
+    "n_rows": 215,
+    "positive_rate": 0.2,
+    "prev_month_spike_auc": 0.6247,
+    "prev_month_spike_auc_n": 192,
+    "model_auc_calibrated_on_prev_month_subset": 0.7495
+  },
+  "baseline_random_auc": 0.5,
+  "independent_final_test": false,
+  "dataset_development_exposure": "entire dataset was exposed during development (framing, model class, features, hyperparameters); numbers are a retrospective evaluation of a frozen pipeline, not an independent test",
+  "asof_serving_rule": "as-of scores are served only for months after the calibration window (>= 2025-10); every fit/calibration date strictly precedes every served date"
+}

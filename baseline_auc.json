@@ -1,0 +1,7 @@
+{
+  "n_rows_total": 215,
+  "n_rows_with_prev_month": 192,
+  "model_auc_calibrated_on_subset": 0.7495,
+  "prev_month_spike_auc": 0.6247,
+  "note": "Majority baseline carries no ranking (constant score). Subset = rows with a prior month for the same series."
+}

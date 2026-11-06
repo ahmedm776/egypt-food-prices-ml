@@ -1,0 +1,526 @@
+market,commodity,month,price,target_spike,predicted_probability
+Cairo (national average),Arugula,2025-10-01,15.0,0.0,0.1532451672223578
+Cairo (national average),Arugula,2025-11-01,15.0,0.0,0.23217154196128043
+Cairo (national average),Arugula,2025-12-01,15.0,0.0,0.008507182274313853
+Cairo (national average),Arugula,2026-01-01,15.0,0.0,0.00865260094226405
+Cairo (national average),Arugula,2026-02-01,15.0,0.0,0.042910650986440674
+Cairo (national average),Arugula,2026-03-01,15.0,0.0,0.10538872156173283
+Cairo (national average),Arugula,2026-04-01,15.0,0.0,0.045884787385413406
+Cairo (national average),Arugula,2026-05-01,15.0,0.0,0.03449681764954602
+Cairo (national average),Arugula,2026-06-01,15.0,0.0,0.025087511253295443
+Cairo (national average),Arugula,2026-07-01,15.0,0.0,0.026984468190000388
+Cairo (national average),Arugula,2026-08-01,15.0,0.0,0.0351291910975344
+Cairo (national average),Arugula,2026-09-01,15.0,0.0,0.12375838674503171
+Cairo (national average),"Beans (fava, dry)",2025-09-01,56.0,0.0,0.18332487234334777
+Cairo (national average),"Beans (fava, dry)",2025-10-01,56.1,0.0,0.12052018503237158
+Cairo (national average),"Beans (fava, dry)",2025-11-01,56.3,0.0,0.04560240002937061
+Cairo (national average),"Beans (fava, dry)",2025-12-01,56.4,0.0,0.03463303247626574
+Cairo (national average),"Beans (fava, dry)",2026-01-01,56.4,0.0,0.017493466962449866
+Cairo (national average),"Beans (fava, dry)",2026-02-01,56.6,0.0,0.021193289589971596
+Cairo (national average),"Beans (fava, dry)",2026-03-01,57.1,0.0,0.004398447500152905
+Cairo (national average),"Beans (fava, dry)",2026-06-01,57.4,0.0,0.016881668334887242
+Cairo (national average),"Beans (fava, dry)",2026-07-01,57.0,0.0,0.05116221408507598
+Cairo (national average),"Beans (fava, dry)",2026-08-01,57.1,0.0,0.08571628378725007
+Cairo (national average),"Beans (fava, dry)",2026-09-01,57.4,0.0,0.006397595016718388
+Cairo (national average),Beans (green),2025-10-01,34.5,1.0,0.7260872477595006
+Cairo (national average),Beans (green),2025-11-01,28.2,0.0,0.21136589856455337
+Cairo (national average),Beans (green),2025-12-01,23.5,0.0,0.1081502160901174
+Cairo (national average),Beans (green),2026-01-01,24.2,1.0,0.7206641928866802
+Cairo (national average),Beans (green),2026-02-01,31.1,1.0,0.6988278517528221
+Cairo (national average),Beans (green),2026-03-01,34.6,1.0,0.5312927581063394
+Cairo (national average),Beans (green),2026-04-01,36.0,1.0,0.7480379594983415
+Cairo (national average),Beans (green),2026-05-01,32.0,0.0,0.6148057417289156
+Cairo (national average),Beans (green),2026-06-01,32.7,1.0,0.07596834357917337
+Cairo (national average),Beans (green),2026-07-01,35.7,1.0,0.4380973833767689
+Cairo (national average),Beans (green),2026-08-01,34.2,0.0,0.4198834813649883
+Cairo (national average),Beans (green),2026-09-01,40.6,1.0,0.3932268823894036
+Cairo (national average),Beans (kidney),2025-10-01,78.7,0.0,0.06548534265602661
+Cairo (national average),Beans (kidney),2025-11-01,77.8,0.0,0.06312429185593545
+Cairo (national average),Beans (kidney),2025-12-01,77.1,0.0,0.010760197063278463
+Cairo (national average),Beans (kidney),2026-01-01,76.5,0.0,0.09884093772263353
+Cairo (national average),Beans (kidney),2026-02-01,75.5,0.0,0.09778021370307943
+Cairo (national average),Beans (kidney),2026-03-01,76.0,0.0,0.42957349939827916
+Cairo (national average),Beans (kidney),2026-04-01,77.8,1.0,0.11941734268172809
+Cairo (national average),Beans (kidney),2026-05-01,76.7,0.0,0.6672818599431547
+Cairo (national average),Beans (kidney),2026-06-01,76.4,0.0,0.4146962332583227
+Cairo (national average),Beans (kidney),2026-07-01,77.2,0.0,0.11535907412418914
+Cairo (national average),Beans (kidney),2026-08-01,77.0,0.0,0.05418200990759988
+Cairo (national average),Beans (kidney),2026-09-01,76.7,0.0,0.3638596232658036
+Cairo (national average),"Cheese (local, Koreish)",2025-10-01,96.5,0.0,0.023277561553945454
+Cairo (national average),"Cheese (local, Koreish)",2025-11-01,97.0,0.0,0.020654298544467244
+Cairo (national average),"Cheese (local, Koreish)",2025-12-01,96.9,0.0,0.00668676241816252
+Cairo (national average),"Cheese (local, Koreish)",2026-01-01,97.3,0.0,0.13124373839318576
+Cairo (national average),"Cheese (local, Koreish)",2026-02-01,96.8,0.0,0.14548082353768294
+Cairo (national average),"Cheese (local, Koreish)",2026-03-01,95.8,0.0,0.04350735724258227
+Cairo (national average),"Cheese (local, Koreish)",2026-04-01,98.0,1.0,0.0872078964753221
+Cairo (national average),"Cheese (local, Koreish)",2026-05-01,98.1,0.0,0.10754081224957371
+Cairo (national average),"Cheese (local, Koreish)",2026-06-01,97.8,0.0,0.08130347912599838
+Cairo (national average),"Cheese (local, Koreish)",2026-07-01,98.1,0.0,0.027091771813371964
+Cairo (national average),"Cheese (local, Koreish)",2026-08-01,98.2,0.0,0.04663874154155022
+Cairo (national average),"Cheese (local, Koreish)",2026-09-01,100.0,0.0,0.06290998135119141
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-04-01,39.86,0.0,0.048850087429171525
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-05-01,40.8,1.0,0.034308670460853674
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-06-01,41.4,0.0,0.06637013699337539
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-07-01,41.9,0.0,0.079507967172544
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-08-01,42.0,0.0,0.10256928837515665
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-09-01,42.3,0.0,0.10706441701136098
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-10-01,43.2,1.0,0.06829366456339857
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-11-01,44.0,0.0,0.12404920909502681
+Cairo (national average),"Cheese (local, processed, Nesto)",2025-12-01,44.4,0.0,0.12359118435004185
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-01-01,44.8,0.0,0.07387063645901204
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-02-01,44.8,0.0,0.05848573331499634
+Cairo (national average),"Cheese (local, processed, Nesto)",2026-03-01,45.3,0.0,0.07012252258625908
+Cairo (national average),Cucumbers (medium sized),2025-04-01,20.49,0.0,0.4906972984716337
+Cairo (national average),Cucumbers (medium sized),2025-05-01,17.7,0.0,0.32961183502294833
+Cairo (national average),Cucumbers (medium sized),2025-06-01,17.1,0.0,0.3518304411708775
+Cairo (national average),Cucumbers (medium sized),2025-07-01,17.3,0.0,0.340310497705653
+Cairo (national average),Cucumbers (medium sized),2025-08-01,20.7,1.0,0.5789212236446777
+Cairo (national average),Cucumbers (medium sized),2025-09-01,23.6,1.0,0.3617676182672915
+Cairo (national average),Cucumbers (medium sized),2025-10-01,21.8,0.0,0.5248500553642796
+Cairo (national average),Cucumbers (medium sized),2025-11-01,18.2,0.0,0.033600623294855435
+Cairo (national average),Cucumbers (medium sized),2025-12-01,22.9,1.0,0.16228280141094303
+Cairo (national average),Cucumbers (medium sized),2026-01-01,23.2,0.0,0.3832285976271397
+Cairo (national average),Cucumbers (medium sized),2026-02-01,23.5,0.0,0.22662592665620113
+Cairo (national average),Cucumbers (medium sized),2026-03-01,28.7,1.0,0.18012314888327458
+Cairo (national average),Eggplants,2025-10-01,13.1,1.0,0.26887267385220137
+Cairo (national average),Eggplants,2025-11-01,12.9,0.0,0.49794124228237757
+Cairo (national average),Eggplants,2025-12-01,12.8,0.0,0.11394585850811126
+Cairo (national average),Eggplants,2026-01-01,14.6,1.0,0.13836028318579938
+Cairo (national average),Eggplants,2026-02-01,16.3,1.0,0.2979991039141927
+Cairo (national average),Eggplants,2026-03-01,21.9,1.0,0.514446126560555
+Cairo (national average),Eggplants,2026-04-01,23.6,1.0,0.4675382979939534
+Cairo (national average),Eggplants,2026-05-01,21.6,0.0,0.04084379172758743
+Cairo (national average),Eggplants,2026-06-01,18.9,0.0,0.0866495858256885
+Cairo (national average),Eggplants,2026-07-01,16.0,0.0,0.3796051462418459
+Cairo (national average),Eggplants,2026-08-01,14.3,0.0,0.5697791839380717
+Cairo (national average),Eggplants,2026-09-01,13.4,0.0,0.6011019165606254
+Cairo (national average),Eggs (medium size),2025-09-01,5.3,1.0,0.42774186858526975
+Cairo (national average),Eggs (medium size),2025-10-01,5.5,1.0,0.238368674360181
+Cairo (national average),Eggs (medium size),2025-11-01,5.3,0.0,0.3519680995045016
+Cairo (national average),Eggs (medium size),2025-12-01,5.0,0.0,0.05846427459630937
+Cairo (national average),Eggs (medium size),2026-01-01,5.0,0.0,0.4873642847387718
+Cairo (national average),Eggs (medium size),2026-02-01,5.0,0.0,0.15238581651139307
+Cairo (national average),Eggs (medium size),2026-03-01,5.1,1.0,0.2229236283608617
+Cairo (national average),Eggs (medium size),2026-06-01,4.0,0.0,0.46105209987284734
+Cairo (national average),Eggs (medium size),2026-07-01,4.0,0.0,0.39635377337097843
+Cairo (national average),Eggs (medium size),2026-08-01,4.1,1.0,0.7076659394321546
+Cairo (national average),Eggs (medium size),2026-09-01,4.1,0.0,0.8764006078660538
+Cairo (national average),Fish (tilapia),2025-04-01,94.27,1.0,0.006662460335094067
+Cairo (national average),Fish (tilapia),2025-05-01,96.9,1.0,0.07598597964692645
+Cairo (national average),Fish (tilapia),2025-06-01,98.1,0.0,0.07314063395624482
+Cairo (national average),Fish (tilapia),2025-07-01,98.6,0.0,0.030467424982742422
+Cairo (national average),Fish (tilapia),2025-08-01,97.4,0.0,0.022921082342588845
+Cairo (national average),Fish (tilapia),2025-09-01,95.8,0.0,0.020100722795597457
+Cairo (national average),Fish (tilapia),2025-10-01,93.8,0.0,0.06358156170309304
+Cairo (national average),Fish (tilapia),2025-11-01,92.2,0.0,0.051920598214042706
+Cairo (national average),Fish (tilapia),2025-12-01,91.7,0.0,0.05961324894776833
+Cairo (national average),Fish (tilapia),2026-01-01,92.7,0.0,0.12440169831427687
+Cairo (national average),Fish (tilapia),2026-02-01,93.7,0.0,0.024351267507614217
+Cairo (national average),Fish (tilapia),2026-03-01,95.6,1.0,0.11925243555260386
+Cairo (national average),Lentils,2025-09-01,62.0,0.0,0.004375285901147021
+Cairo (national average),Lentils,2025-10-01,62.3,0.0,0.00331915813799155
+Cairo (national average),Lentils,2025-11-01,62.0,0.0,0.0035922212588186805
+Cairo (national average),Lentils,2025-12-01,62.1,0.0,0.0016151983916944176
+Cairo (national average),Lentils,2026-01-01,63.3,0.0,0.003454519508646518
+Cairo (national average),Lentils,2026-02-01,63.3,0.0,0.04277234597346684
+Cairo (national average),Lentils,2026-03-01,63.9,0.0,0.09065105164931382
+Cairo (national average),Lentils,2026-06-01,51.3,0.0,0.03955770454726052
+Cairo (national average),Lentils,2026-07-01,65.2,1.0,0.33786353708687655
+Cairo (national average),Lentils,2026-08-01,65.0,0.0,0.09935965107834316
+Cairo (national average),Lentils,2026-09-01,65.5,0.0,0.2450800643200601
+Cairo (national average),Meat (buffalo),2025-10-01,276.8,0.0,0.0023705567934491907
+Cairo (national average),Meat (buffalo),2025-11-01,278.1,0.0,0.0013540768586065947
+Cairo (national average),Meat (buffalo),2025-12-01,277.6,0.0,0.0020629794203777855
+Cairo (national average),Meat (buffalo),2026-01-01,277.3,0.0,0.006823364183889764
+Cairo (national average),Meat (buffalo),2026-02-01,275.0,0.0,0.004902207430007999
+Cairo (national average),Meat (buffalo),2026-03-01,278.6,0.0,0.002865738560233026
+Cairo (national average),Meat (buffalo),2026-04-01,290.9,1.0,0.0005253006868929777
+Cairo (national average),Meat (buffalo),2026-05-01,296.5,0.0,0.023727638027339983
+Cairo (national average),Meat (buffalo),2026-06-01,299.4,0.0,0.01880190474174131
+Cairo (national average),Meat (buffalo),2026-07-01,302.1,0.0,0.0037115004963111215
+Cairo (national average),Meat (buffalo),2026-08-01,302.5,0.0,0.003198950494589926
+Cairo (national average),Meat (buffalo),2026-09-01,302.6,0.0,0.014605047993531068
+Cairo (national average),"Meat (chicken, farm)",2025-09-01,77.6,0.0,0.16963810820238776
+Cairo (national average),"Meat (chicken, farm)",2025-10-01,77.0,0.0,0.09946341956381409
+Cairo (national average),"Meat (chicken, farm)",2025-11-01,74.3,0.0,0.10168077659405764
+Cairo (national average),"Meat (chicken, farm)",2025-12-01,72.1,0.0,0.10855304146352468
+Cairo (national average),"Meat (chicken, farm)",2026-01-01,82.5,1.0,0.4801625534885831
+Cairo (national average),"Meat (chicken, farm)",2026-02-01,101.0,1.0,0.20972043825358477
+Cairo (national average),"Meat (chicken, farm)",2026-03-01,113.1,1.0,0.7629498787046894
+Cairo (national average),"Meat (chicken, farm)",2026-06-01,84.1,0.0,0.17001944808344358
+Cairo (national average),"Meat (chicken, farm)",2026-07-01,79.2,0.0,0.1104530808395759
+Cairo (national average),"Meat (chicken, farm)",2026-08-01,76.5,0.0,0.05260816295193991
+Cairo (national average),"Meat (chicken, farm)",2026-09-01,80.8,1.0,0.5444769500744661
+Cairo (national average),Melons (cantaloupe),2025-06-01,21.0,0.0,0.07310086355740764
+Cairo (national average),Melons (cantaloupe),2025-07-01,19.7,0.0,0.12910109543612727
+Cairo (national average),Melons (cantaloupe),2025-08-01,20.7,1.0,0.3849983501253437
+Cairo (national average),Melons (cantaloupe),2026-06-01,25.1,0.0,0.12095917814579538
+Cairo (national average),Melons (cantaloupe),2026-07-01,24.6,0.0,0.01778565679105339
+Cairo (national average),Melons (cantaloupe),2026-08-01,24.3,0.0,0.12599918507450583
+Cairo (national average),Melons (cantaloupe),2026-09-01,49.4,1.0,0.1277074543582132
+Cairo (national average),Milk (fresh),2025-09-01,33.1,0.0,0.015986005361714805
+Cairo (national average),Milk (fresh),2025-10-01,33.4,0.0,0.020156247168114688
+Cairo (national average),Milk (fresh),2025-11-01,33.6,0.0,0.014448424538533964
+Cairo (national average),Milk (fresh),2025-12-01,33.7,0.0,0.00449616986137647
+Cairo (national average),Milk (fresh),2026-01-01,34.1,0.0,0.02828976013507998
+Cairo (national average),Milk (fresh),2026-02-01,34.5,0.0,0.011303974298706962
+Cairo (national average),Milk (fresh),2026-03-01,34.7,0.0,0.024410809425394607
+Cairo (national average),Milk (fresh),2026-06-01,35.8,0.0,0.017878582057003062
+Cairo (national average),Milk (fresh),2026-07-01,35.7,0.0,0.031357297721224545
+Cairo (national average),Milk (fresh),2026-08-01,35.9,0.0,0.02399757034390355
+Cairo (national average),Milk (fresh),2026-09-01,35.9,0.0,0.007284698027041004
+Cairo (national average),Oil (cotton),2025-09-01,59.9,0.0,0.004702087928305387
+Cairo (national average),Oil (cotton),2025-10-01,59.4,0.0,0.0033175149155304944
+Cairo (national average),Oil (cotton),2025-11-01,59.8,0.0,0.006669188477243669
+Cairo (national average),Oil (cotton),2025-12-01,60.0,0.0,0.0016545173691604935
+Cairo (national average),Oil (cotton),2026-01-01,59.9,0.0,0.006955083498345049
+Cairo (national average),Oil (cotton),2026-02-01,59.6,0.0,0.0064265785554900425
+Cairo (national average),Oil (cotton),2026-03-01,61.2,1.0,0.002132693437807962
+Cairo (national average),Oil (cotton),2026-06-01,64.9,0.0,0.08257108652485425
+Cairo (national average),Oil (cotton),2026-07-01,64.0,0.0,0.028320879459872075
+Cairo (national average),Oil (cotton),2026-08-01,64.9,0.0,0.10791416669998644
+Cairo (national average),Oil (cotton),2026-09-01,65.5,0.0,0.07394665198577433
+Cairo (national average),Onions,2025-10-01,15.8,1.0,0.05332738062183153
+Cairo (national average),Onions,2025-11-01,15.4,0.0,0.16443504601789097
+Cairo (national average),Onions,2025-12-01,15.4,0.0,0.07463416453205263
+Cairo (national average),Onions,2026-01-01,15.4,0.0,0.2098982769410196
+Cairo (national average),Onions,2026-02-01,15.2,0.0,0.16218373137008663
+Cairo (national average),Onions,2026-03-01,15.6,1.0,0.11889034245358808
+Cairo (national average),Onions,2026-04-01,16.7,1.0,0.10199491160300467
+Cairo (national average),Onions,2026-05-01,15.3,0.0,0.6430635030599565
+Cairo (national average),Onions,2026-06-01,14.9,0.0,0.6845087466388596
+Cairo (national average),Onions,2026-07-01,15.3,1.0,0.725400594680158
+Cairo (national average),Onions,2026-08-01,15.8,1.0,0.29931482023695644
+Cairo (national average),Onions,2026-09-01,17.6,1.0,0.6180592909138585
+Cairo (national average),Oranges,2025-02-01,19.85,1.0,0.16631735975847062
+Cairo (national average),Oranges,2025-03-01,25.8,1.0,0.25016022989634734
+Cairo (national average),Oranges,2025-04-01,28.37,1.0,0.27602691710522337
+Cairo (national average),Oranges,2025-10-01,31.3,0.0,0.3562311656920824
+Cairo (national average),Oranges,2025-11-01,27.6,0.0,0.46230255140909554
+Cairo (national average),Oranges,2025-12-01,23.7,0.0,0.28753877951699586
+Cairo (national average),Oranges,2026-01-01,21.2,0.0,0.5882552917181806
+Cairo (national average),Oranges,2026-02-01,20.7,0.0,0.6073035752419292
+Cairo (national average),Oranges,2026-03-01,20.8,0.0,0.39089831954840937
+Cairo (national average),Oranges,2026-04-01,25.0,1.0,0.2827477830128231
+Cairo (national average),Pasta,2025-04-01,28.56,0.0,0.006677555730506272
+Cairo (national average),Pasta,2025-05-01,28.5,0.0,0.002210887958337947
+Cairo (national average),Pasta,2025-06-01,28.4,0.0,0.0004177413658761295
+Cairo (national average),Pasta,2025-07-01,28.4,0.0,0.001144891703646095
+Cairo (national average),Pasta,2025-08-01,28.6,0.0,0.0012436114916389025
+Cairo (national average),Pasta,2025-09-01,28.5,0.0,0.0007120527288455139
+Cairo (national average),Pasta,2025-10-01,28.6,0.0,0.001314984359693797
+Cairo (national average),Pasta,2025-11-01,28.7,0.0,0.0027423790341405234
+Cairo (national average),Pasta,2025-12-01,28.6,0.0,0.0009567787416381632
+Cairo (national average),Pasta,2026-01-01,28.8,0.0,0.00197158533136682
+Cairo (national average),Pasta,2026-02-01,28.7,0.0,0.0008020708896837616
+Cairo (national average),Pasta,2026-03-01,28.9,0.0,0.0017805264851749414
+Cairo (national average),Rice,2025-09-01,29.1,0.0,0.006988733216382353
+Cairo (national average),Rice,2025-10-01,29.0,0.0,0.0050903288038970035
+Cairo (national average),Rice,2025-11-01,29.0,0.0,0.01746987008471326
+Cairo (national average),Rice,2025-12-01,28.7,0.0,0.006241188256570393
+Cairo (national average),Rice,2026-01-01,28.4,0.0,0.02316785097759781
+Cairo (national average),Rice,2026-02-01,28.6,0.0,0.010579642891830407
+Cairo (national average),Rice,2026-03-01,28.9,0.0,0.006277539649602827
+Cairo (national average),Rice,2026-06-01,29.7,0.0,0.050211753847348446
+Cairo (national average),Rice,2026-07-01,29.7,0.0,0.02373125463392544
+Cairo (national average),Rice,2026-08-01,29.8,0.0,0.022866254844046464
+Cairo (national average),Rice,2026-09-01,29.6,0.0,0.019561375934301118
+Cairo (national average),Sugar,2025-04-01,42.45,1.0,0.030371031198976786
+Cairo (national average),Sugar,2025-05-01,42.2,0.0,0.03339566237086675
+Cairo (national average),Sugar,2025-06-01,42.3,0.0,0.03355464068139955
+Cairo (national average),Sugar,2025-07-01,42.3,0.0,0.019811198561982844
+Cairo (national average),Sugar,2025-08-01,42.6,0.0,0.023162536585690903
+Cairo (national average),Sugar,2025-09-01,42.7,0.0,0.011592620011803377
+Cairo (national average),Sugar,2025-10-01,42.4,0.0,0.004413319038686044
+Cairo (national average),Sugar,2025-11-01,41.6,0.0,0.009876784483569882
+Cairo (national average),Sugar,2025-12-01,39.7,0.0,0.030884855002046335
+Cairo (national average),Sugar,2026-01-01,40.1,0.0,0.2069742124018599
+Cairo (national average),Sugar,2026-02-01,39.3,0.0,0.09188060357559295
+Cairo (national average),Sugar,2026-03-01,61.0,1.0,0.48247097148498574
+Cairo (national average),Tomatoes,2025-09-01,13.1,1.0,0.5499340363724161
+Cairo (national average),Tomatoes,2025-10-01,21.1,1.0,0.5940525347968716
+Cairo (national average),Tomatoes,2025-11-01,12.3,0.0,0.10106091785892564
+Cairo (national average),Tomatoes,2025-12-01,9.8,0.0,0.01010846386894598
+Cairo (national average),Tomatoes,2026-01-01,12.6,1.0,0.06519654196745593
+Cairo (national average),Tomatoes,2026-02-01,14.6,1.0,0.08243757197334513
+Cairo (national average),Tomatoes,2026-03-01,26.9,1.0,0.1632623377549171
+Cairo (national average),Tomatoes,2026-06-01,24.4,0.0,0.0158682449104143
+Cairo (national average),Tomatoes,2026-07-01,23.2,0.0,0.0026835537927133875
+Cairo (national average),Tomatoes,2026-08-01,17.1,0.0,0.0593212465143253
+Cairo (national average),Tomatoes,2026-09-01,24.9,1.0,0.13536715400682126
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-09-01,22.6,0.0,0.0018090617536441027
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-10-01,22.6,0.0,0.016136445645763768
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-11-01,22.8,0.0,0.028941164500680586
+Cairo (national average),"Wheat flour (unpacked, 72%)",2025-12-01,22.5,0.0,0.008374086925751674
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-01-01,22.4,0.0,0.04712812014209892
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-02-01,22.5,0.0,0.03281598257405391
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-03-01,22.8,0.0,0.008840376491663922
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-06-01,23.6,0.0,0.08363008721143557
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-07-01,23.6,0.0,0.07016689837294472
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-08-01,23.7,0.0,0.09944526235282901
+Cairo (national average),"Wheat flour (unpacked, 72%)",2026-09-01,23.9,0.0,0.02788042323374039
+National Average,"Beans (fava, dry)",2021-11-01,23.4,1.0,0.15242718471116315
+National Average,"Beans (fava, dry)",2021-12-01,23.64,0.0,0.11796449468940881
+National Average,"Beans (fava, dry)",2022-01-01,23.58,0.0,0.08300576106506237
+National Average,"Beans (fava, dry)",2022-02-01,23.65,0.0,0.1182361550726263
+National Average,"Beans (fava, dry)",2022-03-01,23.92,0.0,0.04291361992415971
+National Average,"Beans (fava, dry)",2022-04-01,24.13,0.0,0.028079964453962086
+National Average,"Beans (fava, dry)",2022-05-01,24.58,0.0,0.01410037357005145
+National Average,"Beans (fava, dry)",2022-06-01,25.07,0.0,0.09635109011040734
+National Average,"Beans (fava, dry)",2022-07-01,25.44,0.0,0.044225808662911474
+National Average,"Beans (fava, dry)",2022-08-01,25.74,0.0,0.12504908063534798
+National Average,"Beans (fava, dry)",2022-09-01,26.94,1.0,0.4174033034484257
+National Average,"Beans (fava, dry)",2022-10-01,27.48,1.0,0.695066911631985
+National Average,Cheese,2021-11-01,30.35,1.0,0.36716192475176485
+National Average,Cheese,2021-12-01,30.6,0.0,0.3593231144417053
+National Average,Cheese,2022-01-01,30.98,0.0,0.2541087049492193
+National Average,Cheese,2022-02-01,31.05,0.0,0.14749860589095826
+National Average,Cheese,2022-03-01,32.16,1.0,0.10073601377089883
+National Average,Cheese,2022-04-01,32.68,0.0,0.1620754496519357
+National Average,Cheese,2022-05-01,33.57,1.0,0.05178247847240805
+National Average,Cheese,2022-06-01,34.09,0.0,0.08106796791235267
+National Average,Cheese,2022-07-01,34.31,0.0,0.05547388821838965
+National Average,Cheese,2022-08-01,35.38,1.0,0.08915652809888176
+National Average,Cheese,2022-09-01,37.03,1.0,0.2157514878135779
+National Average,Cheese,2022-10-01,38.59,1.0,0.3593221369245058
+National Average,Cheese (picon),2021-11-01,14.05,1.0,0.6424134120561114
+National Average,Cheese (picon),2021-12-01,14.24,0.0,0.40197827904628647
+National Average,Cheese (picon),2022-01-01,14.35,0.0,0.16699849789378515
+National Average,Cheese (picon),2022-02-01,14.47,0.0,0.20040696095413219
+National Average,Cheese (picon),2022-03-01,14.5,0.0,0.07365495956170524
+National Average,Cheese (picon),2022-04-01,14.91,1.0,0.05743932330062888
+National Average,Cheese (picon),2022-05-01,15.94,1.0,0.1633453140132161
+National Average,Cheese (picon),2022-06-01,17.14,1.0,0.1652361782067506
+National Average,Cheese (picon),2022-07-01,17.63,1.0,0.36584130187897246
+National Average,Cheese (picon),2022-08-01,18.31,1.0,0.3378607830348738
+National Average,Cheese (picon),2022-09-01,19.42,1.0,0.6058335729507018
+National Average,Cheese (picon),2022-10-01,20.32,1.0,0.49982005591548145
+National Average,Eggs,2021-11-01,1.75,0.0,0.22810271899774176
+National Average,Eggs,2021-12-01,1.71,0.0,0.06123296083406369
+National Average,Eggs,2022-01-01,1.82,1.0,0.22297772516809236
+National Average,Eggs,2022-02-01,1.9,1.0,0.23847060955168253
+National Average,Eggs,2022-03-01,2.04,1.0,0.6218799688192324
+National Average,Eggs,2022-04-01,2.05,0.0,0.4412725904686709
+National Average,Eggs,2022-05-01,2.03,0.0,0.03114615172087989
+National Average,Eggs,2022-06-01,2.05,0.0,0.11688613073377412
+National Average,Eggs,2022-07-01,2.28,1.0,0.14544111950707006
+National Average,Eggs,2022-08-01,2.27,0.0,0.2370092623443406
+National Average,Eggs,2022-09-01,2.43,1.0,0.5341212344891815
+National Average,Eggs,2022-10-01,2.69,1.0,0.529345178357201
+National Average,Fish (tilapia),2015-11-01,22.5,0.0,0.1247595657516022
+National Average,Fish (tilapia),2015-12-01,22.5,0.0,0.07578998955991381
+National Average,Garlic,2021-11-01,30.82,1.0,0.1679563764044869
+National Average,Garlic,2021-12-01,30.01,0.0,0.32570031872991945
+National Average,Garlic,2022-01-01,28.16,0.0,0.6769954674766461
+National Average,Garlic,2022-02-01,28.92,1.0,0.49796210412446024
+National Average,Garlic,2022-03-01,26.68,0.0,0.4078093014930523
+National Average,Garlic,2022-04-01,21.06,0.0,0.84077511533742
+National Average,Garlic,2022-05-01,25.48,1.0,0.6713445524267421
+National Average,Garlic,2022-06-01,19.61,0.0,0.43864457760278386
+National Average,Garlic,2022-07-01,18.69,0.0,0.7182896340521508
+National Average,Garlic,2022-08-01,18.78,0.0,0.8394638142531273
+National Average,Garlic,2022-09-01,19.35,1.0,0.4679213572807464
+National Average,Garlic,2022-10-01,19.61,0.0,0.1087535656026246
+National Average,Ghee (artificial),2014-09-01,13.13,1.0,0.3345607297740599
+National Average,Ghee (artificial),2014-10-01,12.67,0.0,0.0988393397927198
+National Average,Ghee (artificial),2014-11-01,13.0,1.0,0.18836833808751355
+National Average,Ghee (artificial),2014-12-01,12.8,0.0,0.281277434798453
+National Average,Ghee (artificial),2015-01-01,12.4,0.0,0.36425222978165955
+National Average,Ghee (artificial),2015-02-01,12.3,0.0,0.13981688908738835
+National Average,Ghee (artificial),2015-05-01,12.7,0.0,0.14830349537650384
+National Average,Ghee (artificial),2015-06-01,12.2,0.0,0.1405400699354207
+National Average,Ghee (artificial),2015-07-01,12.5,1.0,0.26979261205954114
+National Average,Ghee (artificial),2015-08-01,12.6,0.0,0.1493244156886107
+National Average,Ghee (artificial),2015-09-01,12.6,0.0,0.13410449505918434
+National Average,Ghee (natural),2021-11-01,105.23,0.0,0.01100237928578818
+National Average,Ghee (natural),2021-12-01,105.9,0.0,0.005684715570942316
+National Average,Ghee (natural),2022-01-01,106.96,0.0,0.06195475947869259
+National Average,Ghee (natural),2022-02-01,108.28,0.0,0.13039656246600773
+National Average,Ghee (natural),2022-03-01,110.09,0.0,0.023450825808414733
+National Average,Ghee (natural),2022-04-01,112.61,1.0,0.014507209328876332
+National Average,Ghee (natural),2022-05-01,115.21,1.0,0.024659815517718054
+National Average,Ghee (natural),2022-06-01,115.59,0.0,0.015306325497132069
+National Average,Ghee (natural),2022-07-01,116.71,0.0,0.017328572817422144
+National Average,Ghee (natural),2022-08-01,116.78,0.0,0.012708407685623757
+National Average,Ghee (natural),2022-09-01,119.64,1.0,0.018241770817581052
+National Average,Ghee (natural),2022-10-01,121.71,0.0,0.09725264153053663
+National Average,Lentils,2021-11-01,21.39,1.0,0.3840545474069457
+National Average,Lentils,2021-12-01,21.87,1.0,0.32744793073079487
+National Average,Lentils,2022-01-01,22.11,0.0,0.2279897577821049
+National Average,Lentils,2022-02-01,22.33,0.0,0.31160273685506257
+National Average,Lentils,2022-03-01,22.91,1.0,0.1878774538479892
+National Average,Lentils,2022-04-01,23.39,1.0,0.29131619741216963
+National Average,Lentils,2022-05-01,24.34,1.0,0.1110982926870573
+National Average,Lentils,2022-06-01,24.42,0.0,0.2172082061916576
+National Average,Lentils,2022-07-01,24.64,0.0,0.03188205446152233
+National Average,Lentils,2022-08-01,24.85,0.0,0.12078057173901607
+National Average,Lentils,2022-09-01,26.27,1.0,0.134459980551886
+National Average,Lentils,2022-10-01,27.18,1.0,0.5990830915328024
+National Average,Meat (beef),2014-09-01,65.0,1.0,0.17451589614152696
+National Average,Meat (beef),2014-10-01,67.17,1.0,0.04511112291053491
+National Average,Meat (beef),2014-11-01,67.5,0.0,0.047518346466167316
+National Average,Meat (beef),2014-12-01,61.3,0.0,0.02064204189374806
+National Average,Meat (beef),2015-01-01,65.0,1.0,0.28803565160587496
+National Average,Meat (beef),2015-02-01,65.6,0.0,0.07348704166153776
+National Average,Meat (beef),2015-05-01,65.4,1.0,0.19002757177436327
+National Average,Meat (beef),2015-06-01,67.8,1.0,0.09487382646447484
+National Average,Meat (beef),2015-07-01,62.5,0.0,0.037376941700373
+National Average,Meat (beef),2015-08-01,68.8,1.0,0.12314043466517134
+National Average,Meat (beef),2015-09-01,62.5,0.0,0.0803482168567897
+National Average,"Meat (beef, without bones)",2021-11-01,146.63,1.0,0.23575404433987374
+National Average,"Meat (beef, without bones)",2021-12-01,148.54,0.0,0.39294771290392305
+National Average,"Meat (beef, without bones)",2022-01-01,148.89,0.0,0.0065329877552589176
+National Average,"Meat (beef, without bones)",2022-02-01,150.2,0.0,0.0034066758741314704
+National Average,"Meat (beef, without bones)",2022-03-01,159.52,1.0,0.0012109228972156877
+National Average,"Meat (beef, without bones)",2022-04-01,164.14,1.0,0.00925363936072561
+National Average,"Meat (beef, without bones)",2022-05-01,164.59,0.0,0.0031498934808423295
+National Average,"Meat (beef, without bones)",2022-06-01,167.52,0.0,0.0020604492223388693
+National Average,"Meat (beef, without bones)",2022-07-01,170.24,0.0,0.0020764025431805728
+National Average,"Meat (beef, without bones)",2022-08-01,171.01,0.0,0.0026448885810528514
+National Average,"Meat (beef, without bones)",2022-09-01,171.65,0.0,0.004278337921655551
+National Average,"Meat (beef, without bones)",2022-10-01,172.37,0.0,0.0011569870068660053
+National Average,"Meat (chicken, frozen)",2021-11-01,31.28,0.0,0.30013842671248697
+National Average,"Meat (chicken, frozen)",2021-12-01,29.56,0.0,0.11930348515098552
+National Average,"Meat (chicken, frozen)",2022-01-01,30.91,1.0,0.3138560105706016
+National Average,"Meat (chicken, frozen)",2022-02-01,34.6,1.0,0.3572489648592057
+National Average,"Meat (chicken, frozen)",2022-03-01,38.51,1.0,0.5612758910914485
+National Average,"Meat (chicken, frozen)",2022-04-01,42.45,1.0,0.4140021779561914
+National Average,"Meat (chicken, frozen)",2022-05-01,41.52,0.0,0.09728739788059966
+National Average,"Meat (chicken, frozen)",2022-06-01,41.51,0.0,0.009685659192812
+National Average,"Meat (chicken, frozen)",2022-07-01,40.6,0.0,0.07932309471013203
+National Average,"Meat (chicken, frozen)",2022-08-01,35.47,0.0,0.044682132104194146
+National Average,"Meat (chicken, frozen)",2022-09-01,36.74,1.0,0.15341807443772543
+National Average,"Meat (chicken, frozen)",2022-10-01,38.93,1.0,0.6059834059679362
+National Average,Milk,2015-11-01,7.43,0.0,0.09562324205131169
+National Average,Milk,2015-12-01,7.43,0.0,0.06085998226859332
+National Average,Oil (maize),2021-11-01,34.94,1.0,0.006336706979573846
+National Average,Oil (maize),2021-12-01,35.96,1.0,0.1809148911152247
+National Average,Oil (maize),2022-01-01,36.58,0.0,0.1172901060499269
+National Average,Oil (maize),2022-02-01,36.76,0.0,0.11572236103337352
+National Average,Oil (maize),2022-03-01,37.71,1.0,0.05074271922945667
+National Average,Oil (maize),2022-04-01,37.8,0.0,0.08196048650662831
+National Average,Oil (maize),2022-05-01,39.79,1.0,0.03237006168816001
+National Average,Oil (maize),2022-06-01,41.76,1.0,0.1053419038883567
+National Average,Oil (maize),2022-07-01,43.32,1.0,0.10183143833739185
+National Average,Oil (maize),2022-08-01,43.98,0.0,0.1657531920032493
+National Average,Oil (maize),2022-09-01,45.78,1.0,0.15403915655747633
+National Average,Oil (maize),2022-10-01,47.97,1.0,0.43268757173824435
+National Average,Oil (mixed),2021-11-01,25.0,1.0,0.38160715270502593
+National Average,Oil (mixed),2021-12-01,21.45,0.0,0.623713308912479
+National Average,Oil (mixed),2022-01-01,24.0,1.0,0.2872727543441456
+National Average,Oil (mixed),2022-02-01,25.0,1.0,0.8566193082724127
+National Average,Oil (mixed),2022-03-01,25.0,0.0,0.31954568315101145
+National Average,Oil (mixed),2022-04-01,25.0,0.0,0.0964428425145712
+National Average,Oil (mixed),2022-05-01,25.63,1.0,0.26529828212695045
+National Average,Oil (mixed),2022-06-01,26.65,1.0,0.34538774557465496
+National Average,Oil (mixed),2022-07-01,27.34,1.0,0.35390931845445334
+National Average,Oil (mixed),2022-08-01,27.71,0.0,0.13393781224970447
+National Average,Oil (mixed),2022-09-01,28.96,1.0,0.28264045484187494
+National Average,Oil (mixed),2022-10-01,30.05,1.0,0.5152972532882607
+National Average,Oil (sunflower),2021-11-01,29.98,1.0,0.08946384925249888
+National Average,Oil (sunflower),2021-12-01,30.77,1.0,0.7322207740016026
+National Average,Oil (sunflower),2022-01-01,31.24,0.0,0.5937024049131386
+National Average,Oil (sunflower),2022-02-01,31.44,0.0,0.0981270924583032
+National Average,Oil (sunflower),2022-03-01,32.52,1.0,0.05641831112811189
+National Average,Oil (sunflower),2022-04-01,32.61,0.0,0.10009315126679325
+National Average,Oil (sunflower),2022-05-01,34.72,1.0,0.03650272320205957
+National Average,Oil (sunflower),2022-06-01,36.72,1.0,0.2058641315389139
+National Average,Oil (sunflower),2022-07-01,38.26,1.0,0.40614511605891046
+National Average,Oil (sunflower),2022-08-01,39.01,0.0,0.5466141093246482
+National Average,Oil (sunflower),2022-09-01,40.07,1.0,0.23704117382359968
+National Average,Oil (sunflower),2022-10-01,41.59,1.0,0.29830865180358285
+National Average,Onions (red),2021-11-01,5.57,0.0,0.4789182812149599
+National Average,Onions (red),2021-12-01,5.21,0.0,0.3112328520168926
+National Average,Onions (red),2022-01-01,4.96,0.0,0.41600246171256516
+National Average,Onions (red),2022-02-01,4.74,0.0,0.2875982406744075
+National Average,Onions (red),2022-03-01,4.45,0.0,0.6966354768915726
+National Average,Onions (red),2022-04-01,4.4,0.0,0.721043924774978
+National Average,Onions (red),2022-05-01,4.54,1.0,0.14786772638373194
+National Average,Onions (red),2022-06-01,4.25,0.0,0.20394354811668225
+National Average,Onions (red),2022-07-01,4.12,0.0,0.12099250324692752
+National Average,Onions (red),2022-08-01,4.21,1.0,0.6369834349665927
+National Average,Onions (red),2022-09-01,4.49,1.0,0.571834699393542
+National Average,Onions (red),2022-10-01,5.33,1.0,0.6166294185702137
+National Average,Onions (white),2014-12-01,2.9,0.0,0.07697079109081276
+National Average,Onions (white),2015-01-01,2.8,0.0,0.7133949646011069
+National Average,Onions (white),2015-02-01,3.0,1.0,0.5729525857144351
+National Average,Onions (white),2015-05-01,2.5,1.0,0.3198891945604406
+National Average,Onions (white),2015-06-01,2.7,1.0,0.18220904212949854
+National Average,Onions (white),2015-07-01,2.9,1.0,0.5835472826479577
+National Average,Onions (white),2015-08-01,2.4,0.0,0.0750639327914014
+National Average,Onions (white),2015-09-01,2.5,1.0,0.7548561351592318
+National Average,Onions (white),2015-10-01,2.28,0.0,0.52626643118747
+National Average,Onions (white),2015-11-01,2.28,0.0,0.9411873077879239
+National Average,Onions (white),2015-12-01,2.28,0.0,0.3839910729150167
+National Average,Pasta,2021-11-01,9.35,1.0,0.22860309102775497
+National Average,Pasta,2021-12-01,9.51,0.0,0.08822326738297613
+National Average,Pasta,2022-01-01,9.71,1.0,0.1937009555003155
+National Average,Pasta,2022-02-01,10.1,1.0,0.23121578066415624
+National Average,Pasta,2022-03-01,11.18,1.0,0.5514450262165603
+National Average,Pasta,2022-04-01,11.63,1.0,0.8608572629677119
+National Average,Pasta,2022-05-01,12.53,1.0,0.2837438022767313
+National Average,Pasta,2022-06-01,12.8,1.0,0.3694524910434657
+National Average,Pasta,2022-07-01,13.13,1.0,0.23610938472180953
+National Average,Pasta,2022-08-01,13.38,0.0,0.09679375434757938
+National Average,Pasta,2022-09-01,13.93,1.0,0.3510000746089956
+National Average,Pasta,2022-10-01,14.11,0.0,0.41875886227040954
+National Average,Potatoes,2021-11-01,9.13,0.0,0.24791192275185434
+National Average,Potatoes,2021-12-01,8.02,0.0,0.23957129356032209
+National Average,Potatoes,2022-01-01,6.54,0.0,0.23899596682289548
+National Average,Potatoes,2022-02-01,6.99,1.0,0.10231770728100655
+National Average,Potatoes,2022-03-01,6.84,0.0,0.36027657064379476
+National Average,Potatoes,2022-04-01,7.08,1.0,0.13629057431476416
+National Average,Potatoes,2022-05-01,6.39,0.0,0.19950720766387756
+National Average,Potatoes,2022-06-01,5.81,0.0,0.08220987110906508
+National Average,Potatoes,2022-07-01,6.66,1.0,0.39615467412649596
+National Average,Potatoes,2022-08-01,7.53,1.0,0.8520998091292512
+National Average,Potatoes,2022-09-01,8.0,1.0,0.7459243587045045
+National Average,Potatoes,2022-10-01,9.15,1.0,0.3982675208897188
+National Average,Rice,2021-11-01,9.07,1.0,0.08493287715183226
+National Average,Rice,2021-12-01,9.21,0.0,0.046642374496569945
+National Average,Rice,2022-01-01,9.42,1.0,0.17376099433582765
+National Average,Rice,2022-02-01,9.76,1.0,0.3003411830188858
+National Average,Rice,2022-03-01,11.11,1.0,0.5198251216457637
+National Average,Rice,2022-04-01,11.52,1.0,0.6866064852232894
+National Average,Rice,2022-05-01,14.59,1.0,0.3270068943257449
+National Average,Rice,2022-06-01,15.32,1.0,0.5566682358935747
+National Average,Rice,2022-07-01,15.49,0.0,0.023627863640271366
+National Average,Rice,2022-08-01,16.57,1.0,0.45401864050218205
+National Average,Rice,2022-09-01,15.67,0.0,0.20358783840851385
+National Average,Rice,2022-10-01,15.74,0.0,0.09182118815928873
+National Average,Sugar,2021-11-01,11.39,0.0,0.0037598769728536215
+National Average,Sugar,2021-12-01,11.51,0.0,0.1275984628988947
+National Average,Sugar,2022-01-01,11.86,1.0,0.4574995422278205
+National Average,Sugar,2022-02-01,12.09,0.0,0.11771029227088026
+National Average,Sugar,2022-03-01,12.62,1.0,0.6920412315580906
+National Average,Sugar,2022-04-01,12.68,0.0,0.6756837395444456
+National Average,Sugar,2022-05-01,13.17,1.0,0.23351483916794713
+National Average,Sugar,2022-06-01,13.77,1.0,0.15131298309746252
+National Average,Sugar,2022-07-01,13.95,0.0,0.09847678149509255
+National Average,Sugar,2022-08-01,14.54,1.0,0.2931084744074313
+National Average,Sugar,2022-09-01,14.76,0.0,0.16285364158726004
+National Average,Sugar,2022-10-01,15.72,1.0,0.6167816126764901
+National Average,Tomatoes,2021-11-01,5.4,0.0,0.2755659278212865
+National Average,Tomatoes,2021-12-01,4.11,0.0,0.1391194553980654
+National Average,Tomatoes,2022-01-01,4.54,1.0,0.6977025778925101
+National Average,Tomatoes,2022-02-01,7.14,1.0,0.7210062323373625
+National Average,Tomatoes,2022-03-01,6.35,0.0,0.14485006214852297
+National Average,Tomatoes,2022-04-01,14.82,1.0,0.6254361442465012
+National Average,Tomatoes,2022-05-01,11.95,0.0,0.07970360873015851
+National Average,Tomatoes,2022-06-01,8.41,0.0,0.001178225640285866
+National Average,Tomatoes,2022-07-01,4.59,0.0,0.016457187767915812
+National Average,Tomatoes,2022-08-01,6.35,1.0,0.6944384472273682
+National Average,Tomatoes,2022-09-01,6.6,1.0,0.8313453145929325
+National Average,Tomatoes,2022-10-01,7.06,1.0,0.5270419502837159
+National Average,Wheat flour,2021-11-01,8.53,1.0,0.05305471922509638
+National Average,Wheat flour,2021-12-01,8.63,0.0,0.10937261571726666
+National Average,Wheat flour,2022-01-01,8.77,0.0,0.008808991119136265
+National Average,Wheat flour,2022-02-01,8.81,0.0,0.024068304058561762
+National Average,Wheat flour,2022-03-01,10.52,1.0,0.03465260585161155
+National Average,Wheat flour,2022-04-01,11.07,1.0,0.1490609876392137
+National Average,Wheat flour,2022-05-01,11.43,1.0,0.1056631070075882
+National Average,Wheat flour,2022-06-01,11.69,1.0,0.05610539424585123
+National Average,Wheat flour,2022-07-01,11.82,0.0,0.02599705205112589
+National Average,Wheat flour,2022-08-01,12.2,1.0,0.05789641216717224
+National Average,Wheat flour,2022-09-01,12.49,1.0,0.14057385895414004
+National Average,Wheat flour,2022-10-01,13.21,1.0,0.12574331205160186

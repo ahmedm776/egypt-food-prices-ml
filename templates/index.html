@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Egypt Food Price Spike Early Warning</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; background: #f4f6f8;
+         color: #1c2733; margin: 0; display: flex; justify-content: center; padding: 40px 16px; }
+  .card { background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,.08);
+          max-width: 560px; width: 100%; padding: 32px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: #5a6b7b; font-size: 13px; margin-bottom: 24px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
+  select { width: 100%; padding: 10px; border: 1px solid #ccd6dd; border-radius: 8px; font-size: 14px; }
+  button { margin-top: 20px; width: 100%; padding: 12px; border: 0; border-radius: 8px;
+           background: #0b6e4f; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; }
+  button:hover { background: #095c42; }
+  #result { margin-top: 24px; display: none; }
+  .prob { font-size: 40px; font-weight: 700; }
+  .high { color: #b3261e; } .low { color: #0b6e4f; }
+  .meta { font-size: 13px; color: #5a6b7b; margin-top: 10px; line-height: 1.6; }
+  .metrics { background: #f0f4f7; border-radius: 8px; padding: 12px 14px; font-size: 12.5px;
+             color: #42535f; margin-top: 18px; line-height: 1.7; }
+  #error { color: #b3261e; font-size: 13px; margin-top: 14px; display: none; }
+  #rankresult { margin-top: 24px; display: none; }
+  table.rank { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+  table.rank th, table.rank td { text-align: left; padding: 6px 4px; border-bottom: 1px solid #e4eaee; }
+  table.rank th { color: #5a6b7b; font-size: 12px; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .tag { font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 6px; }
+  .tag.high { background: #fbe9e7; } .tag.low { background: #e6f4ec; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Egypt Food Price Spike Early Warning</h1>
+  <div class="sub">Model risk score for a commodity's average monthly price rising
+    more than 2% in the following month. WFP/HDX data (Aug 2010 - Sep 2026),
+    gradient-boosted trees, chronological train (through Sep 2024) ->
+    calibration (Oct 2024 - Sep 2025) -> retrospective evaluation.
+    As-of demo only: scores are retrospective reconstructions on
+    development-exposed data (no independent final test), not live
+    forecasts or verified probabilities.</div>
+  <label for="market">Price series</label>
+  <select id="market"></select>
+  <label for="commodity">Commodity</label>
+  <select id="commodity"></select>
+  <button id="go">Score next unscored month</button>
+  <button id="hist" style="background:#42535f; margin-top:10px;">Historical check: score last month vs actual outcome</button>
+  <button id="rank" style="background:#1c4e80; margin-top:10px;">Rank all commodities in this market</button>
+  <div id="rankresult">
+    <div class="meta" id="rankmeta"></div>
+    <div id="ranktablewrap"></div>
+    <div class="metrics" id="ranknote"></div>
+  </div>
+  <div id="error"></div>
+  <div id="result">
+    <div class="prob" id="prob"></div>
+    <div class="meta" style="margin-top:2px"><b>calibrated probability estimate (rough, not verified)</b></div>
+    <div class="meta" id="meta"></div>
+    <div class="metrics" id="metrics"></div>
+  </div>
+</div>
+<script>
+const marketSel = document.getElementById('market');
+const commoditySel = document.getElementById('commodity');
+let allSeries = [];
+async function init() {
+  const res = await fetch('/api/series');
+  const data = await res.json();
+  allSeries = data.series;
+  const markets = [...new Set(allSeries.map(s => s.market))];
+  marketSel.innerHTML = markets.map(m => `<option>${m}</option>`).join('');
+  updateCommodities();
+  document.getElementById('metrics').textContent = '';
+}
+function updateCommodities() {
+  const cs = allSeries.filter(s => s.market === marketSel.value).map(s => s.commodity);
+  commoditySel.innerHTML = cs.map(c => `<option>${c}</option>`).join('');
+}
+function clearResult() {
+  document.getElementById('result').style.display = 'none';
+  document.getElementById('rankresult').style.display = 'none';
+  document.getElementById('rankmeta').innerHTML = '';
+  document.getElementById('ranktablewrap').innerHTML = '';
+  document.getElementById('ranknote').textContent = '';
+  document.getElementById('prob').textContent = '';
+  document.getElementById('meta').innerHTML = '';
+  document.getElementById('metrics').textContent = '';
+  const err = document.getElementById('error');
+  err.style.display = 'none'; err.textContent = '';
+}
+marketSel.addEventListener('change', () => { updateCommodities(); clearResult(); });
+commoditySel.addEventListener('change', clearResult);
+document.getElementById('go').addEventListener('click', async () => {
+  const err = document.getElementById('error');
+  err.style.display = 'none';
+  const res = await fetch('/api/predict', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({market: marketSel.value, commodity: commoditySel.value})
+  });
+  const data = await res.json();
+  if (!res.ok) { err.textContent = data.detail || 'Request failed'; err.style.display = 'block'; return; }
+  const pct = Math.round(data.risk_score_calibrated * 100);
+  const prob = document.getElementById('prob');
+  prob.textContent = pct + '%';
+  prob.className = 'prob ' + (data.risk_score_calibrated >= 0.5 ? 'high' : 'low');
+  const cm = data.model_evaluation.retrospective_eval;
+  document.getElementById('meta').innerHTML =
+    `Model spike-risk score for <b>${data.prediction_for_month.slice(0,7)}</b> ` +
+    `(<b>${data.commodity}</b>, ${data.market}), as of ${data.as_of.slice(0,7)} ` +
+    `with data up to ${data.last_observed_month.slice(0,7)} (${data.last_observed_price_egp} EGP). ` +
+    `<br>Ranking signal (raw model score, unitless): <b>${data.risk_score_raw.toFixed(2)}</b> - ` +
+    `higher means riskier; use this to rank which series is riskier. It is not a probability. Probability estimate (isotonic-calibrated): ` +
+    `<b>${Math.round(data.risk_score_calibrated*100)}%</b> - rough, not verified; on windows that ` +
+    `drift from the calibration regime, calibration ties can distort ranking (2016-origin ` +
+    `robustness check: raw-score AUC 0.694 vs isotonic 0.644), so ranking follows the raw score. ` +
+    `Label: <b>${data.predicted_label}</b> risk. ` +
+    `Model trained through ${data.model_trained_through.slice(0,7)}, calibrated through ` +
+    `${data.model_calibrated_through.slice(0,7)} - both before the scored month.<br>` +
+    `<i>${data.score_note}.</i>`;
+  document.getElementById('metrics').innerHTML =
+    `Retrospective development evaluation (Oct 2025 - Sep 2026, ${cm.n_rows} series-months; ` +
+    `all data development-exposed, no independent final test): AUC <b>${cm.auc}</b> overall ` +
+    `(vs 0.50 random). Paired on the ${cm.prev_month_spike_auc_n} series-months with a prior ` +
+    `month: model ${cm.model_auc_calibrated_on_prev_month_subset} vs ` +
+    `${cm.prev_month_spike_auc} for a prev-month-spike rule. Brier ` +
+    `${cm.brier_calibrated} calibrated. Accuracy (raw threshold 0.5) ` +
+    `${cm.accuracy_raw_threshold_0p5} (calibrated ${cm.accuracy_calibrated_threshold_0p5}) vs ` +
+    `${cm.majority_accuracy} majority / ${cm.prev_month_spike_accuracy} prev-month - ` +
+    `ranking and calibration gains, not a free accuracy win.`;
+  document.getElementById('result').style.display = 'block';
+});
+document.getElementById('hist').addEventListener('click', async () => {
+  const err = document.getElementById('error');
+  err.style.display = 'none';
+  const res = await fetch('/api/history-check', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({market: marketSel.value, commodity: commoditySel.value})
+  });
+  const data = await res.json();
+  if (!res.ok) { err.textContent = data.detail || 'Request failed'; err.style.display = 'block'; return; }
+  const pct = Math.round(data.risk_score_calibrated * 100);
+  const prob = document.getElementById('prob');
+  prob.textContent = pct + '%';
+  prob.className = 'prob ' + (data.risk_score_calibrated >= 0.5 ? 'high' : 'low');
+  document.getElementById('meta').innerHTML =
+    `Historical check: score for <b>${data.scored_month.slice(0,7)}</b> computed as of ` +
+    `${data.as_of.slice(0,7)} for <b>${data.commodity}</b> (${data.market}).<br>` +
+    `<b>Actual outcome: ${data.actual_outcome}.</b>`;
+  document.getElementById('metrics').textContent = '';
+  document.getElementById('result').style.display = 'block';
+});
+init().then(() => {
+  const q = new URLSearchParams(location.search);
+  if (q.get('market') && q.get('commodity')) {
+    marketSel.value = q.get('market');
+    updateCommodities();
+    commoditySel.value = q.get('commodity');
+    if (q.get('auto') === '1') document.getElementById('go').click();
+  }
+});
+document.getElementById('rank').addEventListener('click', async () => {
+  const err = document.getElementById('error');
+  err.style.display = 'none'; err.textContent = '';
+  const res = await fetch('/api/rank?market=' + encodeURIComponent(marketSel.value));
+  const data = await res.json();
+  if (!res.ok) { err.textContent = data.detail || 'Request failed'; err.style.display = 'block'; return; }
+  document.getElementById('rankmeta').innerHTML =
+    `Commodities in <b>${data.market}</b> ranked by spike risk for ` +
+    `<b>${data.prediction_for_month.slice(0,7)}</b>, as of ${data.as_of.slice(0,7)}. ` +
+    `Order follows the raw rank signal (unitless, not a probability) - higher means riskier. ` +
+    (data.skipped_unscoreable.length ? `Not scoreable for this month: ${data.skipped_unscoreable.map(s => s.commodity + ' (last observed ' + s.reason.match(/last observed ([0-9-]+)/)[1].slice(0,7) + ')').join(', ')}.` : '');
+  const rows = data.ranked.map(r =>
+    `<tr><td class="num">${r.rank}</td><td>${r.commodity}</td>` +
+    `<td class="num">${r.rank_signal_raw_score.toFixed(2)}</td>` +
+    `<td class="num">${Math.round(r.probability_estimate_calibrated*100)}%</td>` +
+    `<td class="num">${r.last_observed_price_egp}</td>` +
+    `<td><span class="tag ${r.predicted_label === 'elevated' ? 'high' : 'low'}">${r.predicted_label}</span></td></tr>`).join('');
+  document.getElementById('ranktablewrap').innerHTML =
+    `<table class="rank"><thead><tr><th class="num">#</th><th>Commodity</th>` +
+    `<th class="num">Rank signal</th><th class="num">Prob. est.</th>` +
+    `<th class="num">Last price (EGP)</th><th>Label</th></tr></thead><tbody>${rows}</tbody></table>`;
+  document.getElementById('ranknote').textContent = data.channels_note;
+  document.getElementById('rankresult').style.display = 'block';
+});
+</script>
+</body>
+</html>
